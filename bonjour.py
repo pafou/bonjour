@@ -1,5 +1,6 @@
 #-*- coding: utf-8 -*-
-mes_prenoms = ['Jo', 'Bill', 'Phil']
 
-for prenom in mes_prenoms:
+fichier = open("prenoms.txt","r")
+
+for prenom in fichier:
     print ("Bonjour {}".format(prenom))
